@@ -1,0 +1,13 @@
+<H1>Hello Express</H1>
+
+<%= students.length %>
+<ul> 
+
+  <% students.forEach((student) => {%> 
+  <li> Name: <%= student.name %></li>
+  <li> Program: <%= student.program %></li>
+  <li> Year Level: <%= student.yearlevel %></li>
+  <li> Gender: <%= student.gender %></li> 
+  <br>
+<% }) %>
+</ul>
